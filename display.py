@@ -63,7 +63,7 @@ while True:
     today_w = soup_w.select('h2')[4].text.strip()
 
     percent_c = str('{:.7f}'.format(int(infections_c.replace(',','')) / int(population_c))+(" %"))
-    percent_w = str('{:.7f}'.format(int(infections_w.replace(',','')) / int(populatio
+    percent_w = str('{:.7f}'.format(int(infections_w.replace(',','')) / int(population_w))+(" %"))
     
 
 
